@@ -17,10 +17,10 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faNavicon, faSpinner, faHome, faCartShopping, faSearch, faUtensils, faHotel, faBurger, faPeopleRoof, faGraduationCap, faShop, faHouse, faUser, faTrash, faExclamation, faArrowRightLong, faXmark, faArrowLeftLong, faCircleCheck, faChevronLeft, faChevronRight, faBoxOpen, faUserTie, faEnvelope, faSignOut, faGauge, faUsers, faCalculator, faSort, faPhone, faLocation, faCamera, faMessage} from '@fortawesome/free-solid-svg-icons'
+import { faNavicon, faSpinner, faHome, faCartShopping, faSearch, faUtensils, faHotel, faBurger, faPeopleRoof, faGraduationCap, faShop, faHouse, faUser, faTrash, faExclamation, faArrowRightLong, faXmark, faArrowLeftLong, faCircleCheck, faChevronLeft, faChevronRight, faBoxOpen, faUserTie, faEnvelope, faSignOut, faGauge, faUsers, faCalculator, faSort, faPhone, faLocation, faCamera, faMessage, faChartLine, faUserCog} from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
-library.add( faNavicon, faSpinner, faHome, faCartShopping, faSearch, faUtensils, faHotel, faBurger, faPeopleRoof, faGraduationCap, faShop, faHouse, faUser, faTrash, faExclamation, faArrowRightLong, faXmark, faArrowLeftLong, faCircleCheck, faChevronLeft, faChevronRight, faBoxOpen, faUserTie, faEnvelope, faSignOut, faGauge, faUsers, faCalculator, faSort, faPhone, faLocation, faCamera, faMessage)
+library.add( faNavicon, faSpinner, faHome, faCartShopping, faSearch, faUtensils, faHotel, faBurger, faPeopleRoof, faGraduationCap, faShop, faHouse, faUser, faTrash, faExclamation, faArrowRightLong, faXmark, faArrowLeftLong, faCircleCheck, faChevronLeft, faChevronRight, faBoxOpen, faUserTie, faEnvelope, faSignOut, faGauge, faUsers, faCalculator, faSort, faPhone, faLocation, faCamera, faMessage, faChartLine, faUserCog)
 
 
 // Import the component

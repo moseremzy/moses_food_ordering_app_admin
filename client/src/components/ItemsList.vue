@@ -34,7 +34,7 @@
     <div class="menu-items" v-if = "currentPageItems.length > 0">
       <div v-for="item in currentPageItems" :key="item.id" class="menu-item">
         <div class="item-image">
-          <img :src= "'https://admin.kelvinspice.com.ng/images/'+item.image" :alt="item.name" />
+          <img :src= "'https://mosesfoodorderingappadmin.kelvinspice.com.ng/images/'+item.image" :alt="item.name" />
         </div>
         <div class="item-details">
           <h3 class="item-name">{{ item.name }}</h3>

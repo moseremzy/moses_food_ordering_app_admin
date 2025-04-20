@@ -23,7 +23,7 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(router);
-app.use('/images', express.static(path.join(__dirname, "../kelvinspice_gallery")));
+app.use('/images', express.static(path.join(__dirname, "../tasteit_gallery")));
 
 
 // app.use(express.static(path.join(__dirname, "/dist")));

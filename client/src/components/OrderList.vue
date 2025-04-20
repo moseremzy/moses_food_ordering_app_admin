@@ -14,7 +14,7 @@
     
     <template v-for = "item in JSON.parse(order.items).slice(0, 2)" :key = "item.name">
     <div id = "image_quantity">
-    <img :src= "'https://admin.kelvinspice.com.ng/images/'+item.image" :alt="item.name"> 
+    <img :src= "'https://mosesfoodorderingappadmin.kelvinspice.com.ng/images/'+item.image" :alt="item.name"> 
     {{item.name}} x {{item.quantity}}
     </div>
     </template>

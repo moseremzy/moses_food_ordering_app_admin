@@ -4,7 +4,7 @@
     <form enctype = "multipart/form-data" method = "post" action = "/update_photo">
     <div class = "profile">
         <!-- <small style="font-size: 11px; color: gray; margin-bottom: 20px; display: block;">Note: images larger than 3mb won't display</small> -->
-        <img :src= "'https://admin.kelvinspice.com.ng/images/'+item_info.image" id = "profile_photo">
+        <img :src= "'https://mosesfoodorderingappadmin.kelvinspice.com.ng/images/'+item_info.image" id = "profile_photo">
                 <label for = "file"> <font-awesome-icon style = "font-size: 14px;"  class="fa-solid fa-camera" icon="fa-solid fa-camera"/> Change Photo
                 <input type = "file" @change = "updatePhoto" id = "file" name = "image" ref = "itemImage" accept="image/*"></label>
         </div>
