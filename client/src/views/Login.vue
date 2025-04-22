@@ -27,6 +27,12 @@
         <button type="submit" @click.prevent = "validation" id="loginbtn" :disabled = "disablebtn"><font-awesome-icon v-if = "spinner"  class="fa-solid fa-spinner fa-spin" id = "spinner" icon="fa-solid fa-spinner"/> Login</button>
 
     </form>
+
+    <div class = "demo_account">
+        <h2>You can login using this demo account</h2>
+        <p>Email: <strong>demoadmin@gmail.com</strong></p>
+        <p>Password: <strong>1234567</strong></p>
+    </div>
     
     <div class = "other_form_info">
         <router-link class = "link" to = "/forgot-password">Forgot password</router-link>
@@ -390,5 +396,17 @@ async function send_confirmation_mail(email) {
      color: red;
      font-size: 12px;
   }
+}
+
+.demo_account {
+      margin: 10px 0;
+}
+
+.demo_account h2{
+      font-size: 16px;
+}
+
+.demo_account p{
+      margin: 10px 0;
 }
 </style>
